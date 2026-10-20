@@ -21,7 +21,7 @@ Overvej følgende – og vis det gerne med et kodeeksempel:
 
 – Hvordan vil du ellers forbedre applikationen i forhold til fx genanvendelighed, state management og robusthed?
 
-# Note
+### Note
 – Du behøver ikke forholde dig til, om det, du laver, er pænt. Dvs. du skal ikke skrive CSS og du skal ikke installere Tailwind eller lignende. Du må derimod gerne orientere dig på delphinus.au.dk, og se, om du kan bruge designelementer, der allerede findes.
 
 – Hvis du også laver .NET-casen, må du gerne kalde API'et på din localhost i stedet‚ ligesom du gerne må optimere på API-kaldet (fx implementere paging og sortering).
