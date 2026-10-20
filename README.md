@@ -1,10 +1,12 @@
 # Case - React app
 
 ## Beskrivelse
-Denne kodebase indeholder en React-applikation (baseret på create-react-app), som kan liste en række tilfældige produkter i en tabel.
+Denne kodebase indeholder en React-applikation, som kan liste en række tilfældige produkter i en tabel.
 
 ## Afvikling
-Når du har klonet projektet ned, skal du køre `npm install` og efterfølgende `npm start` – herefter vil applikationen starte op på http://localhost:3000
+Når du har klonet projektet ned, skal du køre `npm install` og efterfølgende `npm start` – herefter vil applikationen starte op på http://localhost:5173
+
+Kør `npm test` for tests, `npm run typecheck` for TypeScript-kontrol, `npm run build` for et produktionsbuild og `npm run preview` for at afprøve buildet lokalt.
 
 ## Opgave
 Lige nu vises der tre "dummy"-produkter i tabellen, når man trykker på "Hent alle produkter". I stedet for dette vil vi gerne have, at produkterne hentes fra API'et, der ligger på: https://au-case-webapi.azurewebsites.net/api/products (se note)

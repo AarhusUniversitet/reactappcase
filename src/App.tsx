@@ -1,7 +1,12 @@
 import { useState } from 'react';
 
+type Product = {
+  name: string;
+  price: number;
+};
+
 function App() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const renderProducts = products.map((product, index) => (
     <tr key={index}>
       <td>{product.name}</td>
@@ -13,8 +18,8 @@ function App() {
     <>
       <div className="page__content__block">
         <h1>Produktoversigt</h1>
-        <form action="" className="form" onSubmit={(e) => {
-          e.preventDefault();
+        <form action="" className="form" onSubmit={(event) => {
+          event.preventDefault();
           setProducts([
             { name: 'Produkt 1', price: 100 },
             { name: 'Produkt 2', price: 200 },
